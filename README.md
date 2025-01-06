@@ -3,10 +3,9 @@
 关于使用表情进行简单对话
 留言功能，最少可以发送9个表情，共有84种表情。选取前64
 个表情作为六十四进制(简称SFE )编码，每个SFE字符相当于3
-个汉字。.
+个汉字。
 SFE字母集定义如下:
-0123456789abcdefghiklmnopqrstuwxyzABCDEFGHIJKLMNOPQR
-STUVWXYZ!@，每个字符与对应表情一一映射。
+0123456789abcdefghiklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@，每个字符与对应表情一一映射。
 输入验证:
 检查输入是否正好为3个字符，若不符合则抛出异常。
 字符转换为UTF-16进制:
